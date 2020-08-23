@@ -1,0 +1,190 @@
+body {
+    background-image: url('download.png');
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.main {
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 3%;
+    height: auto;
+    /* background-color: #2d3436;
+    background-image: linear-gradient(315deg, #000000 0%, #000000 74%); */
+    border-radius: 15px;
+    width: 90%;
+}
+
+.heading {
+    /* background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%); */
+    background-color: #ee9617;
+    background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+    /* background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%); */
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border-radius: 15px; */
+    /* height: 100px; */
+}
+
+.heading>h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    margin-top: 10px;
+}
+
+.input {
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    width: 70%;
+    text-align: center;
+    height: auto;
+}
+
+.input>input {
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: black;
+    background-color: transparent;
+    /* background-image: linear-gradient(315deg, black 0%, black 74%); */
+    margin-top: 10px;
+    /* transition: width .35s ease-in-out; */
+    font-size: 18px;
+}
+
+@media only screen and (max-width:375px) {
+    .input {
+        width: 80%;
+    }
+    .li {
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .input {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .input {
+        width: 90%;
+    }
+}
+
+.input>input:focus {
+    border-bottom: 1px solid #3eadcf;
+    /* width: 75%; */
+}
+
+.btn {
+    background-color: white;
+    /* background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%); */
+    border: none;
+    /* border: px solid rgb(0, 0, 0); */
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+}
+
+button>i {
+    color: #3eadcf;
+}
+
+.list {
+    width: 84%;
+    margin: auto;
+    margin-top: 30px;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+    color: white;
+    text-align: left;
+    /* margin-top: 20px; */
+}
+
+.innerInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: black;
+    outline-style: none;
+    outline: none;
+    width: 84%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#delete {
+    font-size: 21px;
+    color: red;
+    margin: 12px;
+    /* position: absolute; */
+    /* margin-top: 20px;
+    
+        margin: 4px; */
+}
+
+#edit {
+    font-size: 20px;
+    color: green;
+    /* margin-top: 10px;
+        margin-left: 10px; */
+}
+
+@media only screen and (max-width:425px) {
+    .innerInput {
+        width: 76%;
+    }
+    .input>input {
+        font-size: 19px;
+    }
+    input {
+        font-size: 19px;
+    }
+    .innerInput {
+        width: 70%;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .innerInput {
+        width: 70%;
+    }
+    .input>input {
+        font-size: 17px;
+    }
+    .innerInput {
+        width: 70%;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .input>input {
+        font-size: 15px;
+    }
+    .innerInput {
+        width: 70%;
+        margin-left: 5px;
+    }
+    #delete {
+        margin-left: 10px;
+    }
+    #edit {
+        margin-left: 5px;
+    }
+}

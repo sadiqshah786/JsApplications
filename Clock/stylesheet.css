@@ -1,0 +1,81 @@
+body {
+    background-color: #cccccc;
+}
+
+.ClockContainer {
+    background-image: url('clock.png');
+    width: 40vw;
+    height: 40vw;
+    /* background-color: red; */
+    background-size: 100%;
+    margin-top: 30px;
+    margin: auto;
+    position: relative;
+}
+
+#hr,
+#min,
+#sec {
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    background-color: rgba(128, 0, 128, 0.514);
+}
+
+#hr {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+    /* background-color: rgba(128, 0, 128, 0.514); */
+}
+
+#min {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+    /* background-color: purple; */
+}
+
+#sec {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+    background-color: purple;
+}
+
+.head {
+    width: 50%;
+    height: auto;
+    background-color: purple;
+    border: 1px solid black;
+    /* margin-top: 10%; */
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.head h1 {
+    text-align: center;
+    color: white;
+}
+
+.head a button {
+    padding: 10px;
+    /* background-color: rgba(128, 0, 128, 0); */
+    border: 1px solid white;
+    color: white;
+    background-color: purple;
+    /* border: none; */
+    cursor: pointer;
+}
+
+.head a button:hover {
+    background-color: rgba(0, 0, 0, 0.288);
+}
